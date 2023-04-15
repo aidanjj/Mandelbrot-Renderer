@@ -1,6 +1,9 @@
 A program that renders the Mandelbrot fractal using C++ and the SFML library.
 
-a<sup>test</sup>
+Includes two files: Image and Video. 
+*Image contains a program which generates images from the Mandelbrot set
+*Video contains both a single-threaded and multi-threaded video driver
+Both of these files create a set of images which can be used to create a video. 
 
-Includes two files: Image and Video. Image contains a program which generates images from the Mandelbrot set. Video contains the 
+
 
