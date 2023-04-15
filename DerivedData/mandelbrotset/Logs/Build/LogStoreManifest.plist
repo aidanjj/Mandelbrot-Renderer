@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>59E98D18-C337-4000-A3E9-95BE6CA563CB</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>59E98D18-C337-4000-A3E9-95BE6CA563CB.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>mandelbrotset project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>mandelbrotset</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>0</integer>
+			<key>signature</key>
+			<string>Build mandelbrotset</string>
+			<key>timeStartedRecording</key>
+			<real>703285302.61781502</real>
+			<key>timeStoppedRecording</key>
+			<real>703285302.73986399</real>
+			<key>title</key>
+			<string>Build mandelbrotset</string>
+			<key>uniqueIdentifier</key>
+			<string>59E98D18-C337-4000-A3E9-95BE6CA563CB</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

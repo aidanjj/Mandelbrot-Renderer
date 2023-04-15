@@ -1,0 +1,58 @@
+{
+  "_buildCommand2" : {
+    "command" : "build",
+    "skipDependencies" : false,
+    "style" : "buildAndRun"
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "eff1c49e1b3698681eef2d87eac52564ebf681f32eb8444294e985d7b3d42748"
+    }
+  ],
+  "containerPath" : "/Users/aidan/Documents/School/CS2/mandelbrotset/mandelbrotset.xcodeproj",
+  "continueBuildingAfterErrors" : false,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "arm64e",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "macosx",
+      "sdk" : "macosx12.3",
+      "sdkVariant" : "macos",
+      "supportedArchitectures" : [
+        "arm64e",
+        "arm64",
+        "x86_64"
+      ],
+      "targetArchitecture" : "arm64e"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/aidan/Documents/School/CS2/mandelbrotset/DerivedData/mandelbrotset/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/aidan/Documents/School/CS2/mandelbrotset/DerivedData/mandelbrotset/Build/Products",
+      "derivedDataPath" : "/Users/aidan/Documents/School/CS2/mandelbrotset/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/aidan/Documents/School/CS2/mandelbrotset/DerivedData/mandelbrotset/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/aidan/Documents/School/CS2/mandelbrotset/DerivedData/mandelbrotset/Index/PrecompiledHeaders",
+      "pchPath" : "/Users/aidan/Documents/School/CS2/mandelbrotset/DerivedData/mandelbrotset/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

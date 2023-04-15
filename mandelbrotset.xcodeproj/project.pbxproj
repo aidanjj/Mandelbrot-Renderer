@@ -1,0 +1,335 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD9C67102991B9ED00624A63 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DD9C670F2991B9ED00624A63 /* main.cpp */; };
+		DD9C67222991BC7400624A63 /* sfml-audio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD9C671C2991BC7400624A63 /* sfml-audio.framework */; };
+		DD9C67232991BC7400624A63 /* SFML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD9C671D2991BC7400624A63 /* SFML.framework */; };
+		DD9C67242991BC7400624A63 /* sfml-network.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD9C671E2991BC7400624A63 /* sfml-network.framework */; };
+		DD9C67252991BC7400624A63 /* sfml-graphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD9C671F2991BC7400624A63 /* sfml-graphics.framework */; };
+		DD9C67262991BC7400624A63 /* sfml-system.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD9C67202991BC7400624A63 /* sfml-system.framework */; };
+		DD9C67272991BC7400624A63 /* sfml-window.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD9C67212991BC7400624A63 /* sfml-window.framework */; };
+		DD9C672D2991BC8F00624A63 /* libsfml-audio.2.5.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DD9C67282991BC8F00624A63 /* libsfml-audio.2.5.1.dylib */; };
+		DD9C672E2991BC8F00624A63 /* libsfml-system.2.5.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DD9C67292991BC8F00624A63 /* libsfml-system.2.5.1.dylib */; };
+		DD9C672F2991BC8F00624A63 /* libsfml-network.2.5.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DD9C672A2991BC8F00624A63 /* libsfml-network.2.5.1.dylib */; };
+		DD9C67302991BC8F00624A63 /* libsfml-graphics.2.5.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DD9C672B2991BC8F00624A63 /* libsfml-graphics.2.5.1.dylib */; };
+		DD9C67312991BC8F00624A63 /* libsfml-window.2.5.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DD9C672C2991BC8F00624A63 /* libsfml-window.2.5.1.dylib */; };
+		DDB5DBB229B43E97007F3DCA /* Video.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DDB5DBB029B43E97007F3DCA /* Video.cpp */; };
+		DDB5DBB429B4406A007F3DCA /* VideoDriver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DDB5DBB329B4406A007F3DCA /* VideoDriver.cpp */; };
+		DDBBF95D2991CA43007ED300 /* Mandelbrot.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DDBBF95B2991CA43007ED300 /* Mandelbrot.cpp */; };
+		DDDE488229BA7485006190CF /* multiThreadedDriver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DDDE488129BA7485006190CF /* multiThreadedDriver.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DD9C670C2991B9ED00624A63 /* mandelbrotset */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "compiled.mach-o.executable"; path = mandelbrotset; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD9C670F2991B9ED00624A63 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		DD9C671C2991BC7400624A63 /* sfml-audio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "sfml-audio.framework"; path = "../../../../Downloads/SFML-2.5.1-macos-clang 3/Frameworks/sfml-audio.framework"; sourceTree = "<group>"; };
+		DD9C671D2991BC7400624A63 /* SFML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SFML.framework; path = "../../../../Downloads/SFML-2.5.1-macos-clang 3/Frameworks/SFML.framework"; sourceTree = "<group>"; };
+		DD9C671E2991BC7400624A63 /* sfml-network.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "sfml-network.framework"; path = "../../../../Downloads/SFML-2.5.1-macos-clang 3/Frameworks/sfml-network.framework"; sourceTree = "<group>"; };
+		DD9C671F2991BC7400624A63 /* sfml-graphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "sfml-graphics.framework"; path = "../../../../Downloads/SFML-2.5.1-macos-clang 3/Frameworks/sfml-graphics.framework"; sourceTree = "<group>"; };
+		DD9C67202991BC7400624A63 /* sfml-system.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "sfml-system.framework"; path = "../../../../Downloads/SFML-2.5.1-macos-clang 3/Frameworks/sfml-system.framework"; sourceTree = "<group>"; };
+		DD9C67212991BC7400624A63 /* sfml-window.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "sfml-window.framework"; path = "../../../../Downloads/SFML-2.5.1-macos-clang 3/Frameworks/sfml-window.framework"; sourceTree = "<group>"; };
+		DD9C67282991BC8F00624A63 /* libsfml-audio.2.5.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsfml-audio.2.5.1.dylib"; path = "../../../../Downloads/SFML-2.5.1-macos-clang 3/lib/libsfml-audio.2.5.1.dylib"; sourceTree = "<group>"; };
+		DD9C67292991BC8F00624A63 /* libsfml-system.2.5.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsfml-system.2.5.1.dylib"; path = "../../../../Downloads/SFML-2.5.1-macos-clang 3/lib/libsfml-system.2.5.1.dylib"; sourceTree = "<group>"; };
+		DD9C672A2991BC8F00624A63 /* libsfml-network.2.5.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsfml-network.2.5.1.dylib"; path = "../../../../Downloads/SFML-2.5.1-macos-clang 3/lib/libsfml-network.2.5.1.dylib"; sourceTree = "<group>"; };
+		DD9C672B2991BC8F00624A63 /* libsfml-graphics.2.5.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsfml-graphics.2.5.1.dylib"; path = "../../../../Downloads/SFML-2.5.1-macos-clang 3/lib/libsfml-graphics.2.5.1.dylib"; sourceTree = "<group>"; };
+		DD9C672C2991BC8F00624A63 /* libsfml-window.2.5.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsfml-window.2.5.1.dylib"; path = "../../../../Downloads/SFML-2.5.1-macos-clang 3/lib/libsfml-window.2.5.1.dylib"; sourceTree = "<group>"; };
+		DD9C67322991BC9C00624A63 /* mandelbrotset.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = mandelbrotset.entitlements; sourceTree = "<group>"; };
+		DDB5DBB029B43E97007F3DCA /* Video.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Video.cpp; sourceTree = "<group>"; };
+		DDB5DBB129B43E97007F3DCA /* Video.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Video.hpp; sourceTree = "<group>"; };
+		DDB5DBB329B4406A007F3DCA /* VideoDriver.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = VideoDriver.cpp; sourceTree = "<group>"; };
+		DDBBF95B2991CA43007ED300 /* Mandelbrot.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Mandelbrot.cpp; sourceTree = "<group>"; };
+		DDBBF95C2991CA43007ED300 /* Mandelbrot.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Mandelbrot.hpp; sourceTree = "<group>"; };
+		DDDE488129BA7485006190CF /* multiThreadedDriver.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = multiThreadedDriver.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD9C670A2991B9ED00624A63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD9C672D2991BC8F00624A63 /* libsfml-audio.2.5.1.dylib in Frameworks */,
+				DD9C672E2991BC8F00624A63 /* libsfml-system.2.5.1.dylib in Frameworks */,
+				DD9C672F2991BC8F00624A63 /* libsfml-network.2.5.1.dylib in Frameworks */,
+				DD9C67302991BC8F00624A63 /* libsfml-graphics.2.5.1.dylib in Frameworks */,
+				DD9C67312991BC8F00624A63 /* libsfml-window.2.5.1.dylib in Frameworks */,
+				DD9C67222991BC7400624A63 /* sfml-audio.framework in Frameworks */,
+				DD9C67232991BC7400624A63 /* SFML.framework in Frameworks */,
+				DD9C67242991BC7400624A63 /* sfml-network.framework in Frameworks */,
+				DD9C67252991BC7400624A63 /* sfml-graphics.framework in Frameworks */,
+				DD9C67262991BC7400624A63 /* sfml-system.framework in Frameworks */,
+				DD9C67272991BC7400624A63 /* sfml-window.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD9C67042991B9ED00624A63 = {
+			isa = PBXGroup;
+			children = (
+				DD9C670E2991B9ED00624A63 /* mandelbrotset */,
+				DD9C670D2991B9ED00624A63 /* Products */,
+				DD9C671B2991BC7400624A63 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DD9C670D2991B9ED00624A63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD9C670C2991B9ED00624A63 /* mandelbrotset */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD9C670E2991B9ED00624A63 /* mandelbrotset */ = {
+			isa = PBXGroup;
+			children = (
+				DD9C67322991BC9C00624A63 /* mandelbrotset.entitlements */,
+				DDBBF95B2991CA43007ED300 /* Mandelbrot.cpp */,
+				DDBBF95C2991CA43007ED300 /* Mandelbrot.hpp */,
+				DD9C670F2991B9ED00624A63 /* main.cpp */,
+				DDB5DBB129B43E97007F3DCA /* Video.hpp */,
+				DDDE488129BA7485006190CF /* multiThreadedDriver.cpp */,
+				DDB5DBB029B43E97007F3DCA /* Video.cpp */,
+				DDB5DBB329B4406A007F3DCA /* VideoDriver.cpp */,
+			);
+			path = mandelbrotset;
+			sourceTree = "<group>";
+		};
+		DD9C671B2991BC7400624A63 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD9C67282991BC8F00624A63 /* libsfml-audio.2.5.1.dylib */,
+				DD9C672B2991BC8F00624A63 /* libsfml-graphics.2.5.1.dylib */,
+				DD9C672A2991BC8F00624A63 /* libsfml-network.2.5.1.dylib */,
+				DD9C67292991BC8F00624A63 /* libsfml-system.2.5.1.dylib */,
+				DD9C672C2991BC8F00624A63 /* libsfml-window.2.5.1.dylib */,
+				DD9C671C2991BC7400624A63 /* sfml-audio.framework */,
+				DD9C671F2991BC7400624A63 /* sfml-graphics.framework */,
+				DD9C671E2991BC7400624A63 /* sfml-network.framework */,
+				DD9C67202991BC7400624A63 /* sfml-system.framework */,
+				DD9C67212991BC7400624A63 /* sfml-window.framework */,
+				DD9C671D2991BC7400624A63 /* SFML.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD9C670B2991B9ED00624A63 /* mandelbrotset */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD9C67182991B9ED00624A63 /* Build configuration list for PBXNativeTarget "mandelbrotset" */;
+			buildPhases = (
+				DD9C67092991B9ED00624A63 /* Sources */,
+				DD9C670A2991B9ED00624A63 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mandelbrotset;
+			productName = mandelbrotset;
+			productReference = DD9C670C2991B9ED00624A63 /* mandelbrotset */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD9C67052991B9ED00624A63 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1340;
+				ORGANIZATIONNAME = "Aidan Jerdee";
+				TargetAttributes = {
+					DD9C670B2991B9ED00624A63 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = DD9C67082991B9ED00624A63 /* Build configuration list for PBXProject "mandelbrotset" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD9C67042991B9ED00624A63;
+			productRefGroup = DD9C670D2991B9ED00624A63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD9C670B2991B9ED00624A63 /* mandelbrotset */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD9C67092991B9ED00624A63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD9C67102991B9ED00624A63 /* main.cpp in Sources */,
+				DDBBF95D2991CA43007ED300 /* Mandelbrot.cpp in Sources */,
+				DDB5DBB229B43E97007F3DCA /* Video.cpp in Sources */,
+				DDDE488229BA7485006190CF /* multiThreadedDriver.cpp in Sources */,
+				DDB5DBB429B4406A007F3DCA /* VideoDriver.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DD9C67162991B9ED00624A63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++11";
+				CLANG_CXX_LIBRARY = "libc++";
+				EXCLUDED_ARCHS = arm64;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks/,
+					"$(inherited)",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include/,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib/,
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"$(SFML_SYSTEM)",
+					"$(SFML_WINDOW)",
+					"$(SFML_GRAPHICS)",
+					"$(SFML_AUDIO)",
+					"$(SFML_NETWORK)",
+				);
+				SFML_AUDIO = "$(SFML_LINK_PREFIX) sfml-audio$(SFML_LINK_SUFFIX)";
+				SFML_BINARY_TYPE = FRAMEWORKS;
+				SFML_GRAPHICS = "$(SFML_LINK_PREFIX) sfml-graphics$(SFML_LINK_SUFFIX)";
+				SFML_LINK_DYLIBS_PREFIX = "-l";
+				SFML_LINK_DYLIBS_SUFFIX = "";
+				SFML_LINK_FRAMEWORKS_PREFIX = "-framework";
+				SFML_LINK_FRAMEWORKS_SUFFIX = "";
+				SFML_LINK_PREFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_PREFIX)";
+				SFML_LINK_SUFFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_SUFFIX)";
+				SFML_NETWORK = "$(SFML_LINK_PREFIX) sfml-network$(SFML_LINK_SUFFIX)";
+				SFML_SYSTEM = "$(SFML_LINK_PREFIX) sfml-system$(SFML_LINK_SUFFIX)";
+				SFML_WINDOW = "$(SFML_LINK_PREFIX) sfml-window$(SFML_LINK_SUFFIX)";
+				SUPPORTED_PLATFORMS = macosx;
+			};
+			name = Debug;
+		};
+		DD9C67172991B9ED00624A63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++11";
+				CLANG_CXX_LIBRARY = "libc++";
+				EXCLUDED_ARCHS = arm64;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks/,
+					"$(inherited)",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include/,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib/,
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"$(SFML_SYSTEM)",
+					"$(SFML_WINDOW)",
+					"$(SFML_GRAPHICS)",
+					"$(SFML_AUDIO)",
+					"$(SFML_NETWORK)",
+				);
+				SFML_AUDIO = "$(SFML_LINK_PREFIX) sfml-audio$(SFML_LINK_SUFFIX)";
+				SFML_BINARY_TYPE = FRAMEWORKS;
+				SFML_GRAPHICS = "$(SFML_LINK_PREFIX) sfml-graphics$(SFML_LINK_SUFFIX)";
+				SFML_LINK_DYLIBS_PREFIX = "-l";
+				SFML_LINK_DYLIBS_SUFFIX = "";
+				SFML_LINK_FRAMEWORKS_PREFIX = "-framework";
+				SFML_LINK_FRAMEWORKS_SUFFIX = "";
+				SFML_LINK_PREFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_PREFIX)";
+				SFML_LINK_SUFFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_SUFFIX)";
+				SFML_NETWORK = "$(SFML_LINK_PREFIX) sfml-network$(SFML_LINK_SUFFIX)";
+				SFML_SYSTEM = "$(SFML_LINK_PREFIX) sfml-system$(SFML_LINK_SUFFIX)";
+				SFML_WINDOW = "$(SFML_LINK_PREFIX) sfml-window$(SFML_LINK_SUFFIX)";
+				SUPPORTED_PLATFORMS = macosx;
+			};
+			name = Release;
+		};
+		DD9C67192991B9ED00624A63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CODE_SIGN_ENTITLEMENTS = mandelbrotset/mandelbrotset.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7X6A422K4Z;
+				ENABLE_HARDENED_RUNTIME = YES;
+				EXCLUDED_ARCHS = arm64;
+				LD_NO_PIE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DD9C671A2991B9ED00624A63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CODE_SIGN_ENTITLEMENTS = mandelbrotset/mandelbrotset.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7X6A422K4Z;
+				ENABLE_HARDENED_RUNTIME = YES;
+				EXCLUDED_ARCHS = arm64;
+				LD_NO_PIE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD9C67082991B9ED00624A63 /* Build configuration list for PBXProject "mandelbrotset" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD9C67162991B9ED00624A63 /* Debug */,
+				DD9C67172991B9ED00624A63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD9C67182991B9ED00624A63 /* Build configuration list for PBXNativeTarget "mandelbrotset" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD9C67192991B9ED00624A63 /* Debug */,
+				DD9C671A2991B9ED00624A63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD9C67052991B9ED00624A63 /* Project object */;
+}
