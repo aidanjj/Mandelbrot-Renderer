@@ -16,8 +16,6 @@
 #include "Video.hpp"
 
 void startProgram(long double scale, int curFrame, int numThreads){
-    //long double scale = 3.872103E-10;
-    //long double scale = 1.19219E-40;
     int fps = 30;
     int time = 1800;
     int sizeX = 1920*1.5;

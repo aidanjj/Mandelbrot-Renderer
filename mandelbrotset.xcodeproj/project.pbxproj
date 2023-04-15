@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DD9C67102991B9ED00624A63 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DD9C670F2991B9ED00624A63 /* main.cpp */; };
+		DD1EF5C229EB4C9600989EA0 /* Video.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DD1EF5C029EB4C9600989EA0 /* Video.cpp */; };
+		DD1EF5C529EB4D2B00989EA0 /* ImageDriver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DD1EF5C429EB4D2B00989EA0 /* ImageDriver.cpp */; };
 		DD9C67222991BC7400624A63 /* sfml-audio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD9C671C2991BC7400624A63 /* sfml-audio.framework */; };
 		DD9C67232991BC7400624A63 /* SFML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD9C671D2991BC7400624A63 /* SFML.framework */; };
 		DD9C67242991BC7400624A63 /* sfml-network.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD9C671E2991BC7400624A63 /* sfml-network.framework */; };
@@ -19,15 +20,16 @@
 		DD9C672F2991BC8F00624A63 /* libsfml-network.2.5.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DD9C672A2991BC8F00624A63 /* libsfml-network.2.5.1.dylib */; };
 		DD9C67302991BC8F00624A63 /* libsfml-graphics.2.5.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DD9C672B2991BC8F00624A63 /* libsfml-graphics.2.5.1.dylib */; };
 		DD9C67312991BC8F00624A63 /* libsfml-window.2.5.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DD9C672C2991BC8F00624A63 /* libsfml-window.2.5.1.dylib */; };
-		DDB5DBB229B43E97007F3DCA /* Video.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DDB5DBB029B43E97007F3DCA /* Video.cpp */; };
 		DDB5DBB429B4406A007F3DCA /* VideoDriver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DDB5DBB329B4406A007F3DCA /* VideoDriver.cpp */; };
 		DDBBF95D2991CA43007ED300 /* Mandelbrot.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DDBBF95B2991CA43007ED300 /* Mandelbrot.cpp */; };
 		DDDE488229BA7485006190CF /* multiThreadedDriver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DDDE488129BA7485006190CF /* multiThreadedDriver.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DD1EF5C029EB4C9600989EA0 /* Video.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Video.cpp; sourceTree = "<group>"; };
+		DD1EF5C129EB4C9600989EA0 /* Video.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Video.hpp; sourceTree = "<group>"; };
+		DD1EF5C429EB4D2B00989EA0 /* ImageDriver.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ImageDriver.cpp; sourceTree = "<group>"; };
 		DD9C670C2991B9ED00624A63 /* mandelbrotset */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "compiled.mach-o.executable"; path = mandelbrotset; sourceTree = BUILT_PRODUCTS_DIR; };
-		DD9C670F2991B9ED00624A63 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		DD9C671C2991BC7400624A63 /* sfml-audio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "sfml-audio.framework"; path = "../../../../Downloads/SFML-2.5.1-macos-clang 3/Frameworks/sfml-audio.framework"; sourceTree = "<group>"; };
 		DD9C671D2991BC7400624A63 /* SFML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SFML.framework; path = "../../../../Downloads/SFML-2.5.1-macos-clang 3/Frameworks/SFML.framework"; sourceTree = "<group>"; };
 		DD9C671E2991BC7400624A63 /* sfml-network.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "sfml-network.framework"; path = "../../../../Downloads/SFML-2.5.1-macos-clang 3/Frameworks/sfml-network.framework"; sourceTree = "<group>"; };
@@ -40,8 +42,6 @@
 		DD9C672B2991BC8F00624A63 /* libsfml-graphics.2.5.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsfml-graphics.2.5.1.dylib"; path = "../../../../Downloads/SFML-2.5.1-macos-clang 3/lib/libsfml-graphics.2.5.1.dylib"; sourceTree = "<group>"; };
 		DD9C672C2991BC8F00624A63 /* libsfml-window.2.5.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsfml-window.2.5.1.dylib"; path = "../../../../Downloads/SFML-2.5.1-macos-clang 3/lib/libsfml-window.2.5.1.dylib"; sourceTree = "<group>"; };
 		DD9C67322991BC9C00624A63 /* mandelbrotset.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = mandelbrotset.entitlements; sourceTree = "<group>"; };
-		DDB5DBB029B43E97007F3DCA /* Video.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Video.cpp; sourceTree = "<group>"; };
-		DDB5DBB129B43E97007F3DCA /* Video.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Video.hpp; sourceTree = "<group>"; };
 		DDB5DBB329B4406A007F3DCA /* VideoDriver.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = VideoDriver.cpp; sourceTree = "<group>"; };
 		DDBBF95B2991CA43007ED300 /* Mandelbrot.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Mandelbrot.cpp; sourceTree = "<group>"; };
 		DDBBF95C2991CA43007ED300 /* Mandelbrot.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Mandelbrot.hpp; sourceTree = "<group>"; };
@@ -70,6 +70,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DD1EF5BF29EB4C0F00989EA0 /* MultiThreadedVideo */ = {
+			isa = PBXGroup;
+			children = (
+				DDB5DBB329B4406A007F3DCA /* VideoDriver.cpp */,
+				DDDE488129BA7485006190CF /* multiThreadedDriver.cpp */,
+				DD1EF5C029EB4C9600989EA0 /* Video.cpp */,
+				DD1EF5C129EB4C9600989EA0 /* Video.hpp */,
+			);
+			path = MultiThreadedVideo;
+			sourceTree = "<group>";
+		};
+		DD1EF5C329EB4CE400989EA0 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				DDBBF95B2991CA43007ED300 /* Mandelbrot.cpp */,
+				DDBBF95C2991CA43007ED300 /* Mandelbrot.hpp */,
+				DD1EF5C429EB4D2B00989EA0 /* ImageDriver.cpp */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
 		DD9C67042991B9ED00624A63 = {
 			isa = PBXGroup;
 			children = (
@@ -91,13 +112,8 @@
 			isa = PBXGroup;
 			children = (
 				DD9C67322991BC9C00624A63 /* mandelbrotset.entitlements */,
-				DDBBF95B2991CA43007ED300 /* Mandelbrot.cpp */,
-				DDBBF95C2991CA43007ED300 /* Mandelbrot.hpp */,
-				DD9C670F2991B9ED00624A63 /* main.cpp */,
-				DDB5DBB129B43E97007F3DCA /* Video.hpp */,
-				DDDE488129BA7485006190CF /* multiThreadedDriver.cpp */,
-				DDB5DBB029B43E97007F3DCA /* Video.cpp */,
-				DDB5DBB329B4406A007F3DCA /* VideoDriver.cpp */,
+				DD1EF5C329EB4CE400989EA0 /* Image */,
+				DD1EF5BF29EB4C0F00989EA0 /* MultiThreadedVideo */,
 			);
 			path = mandelbrotset;
 			sourceTree = "<group>";
@@ -177,11 +193,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD9C67102991B9ED00624A63 /* main.cpp in Sources */,
+				DD1EF5C529EB4D2B00989EA0 /* ImageDriver.cpp in Sources */,
 				DDBBF95D2991CA43007ED300 /* Mandelbrot.cpp in Sources */,
-				DDB5DBB229B43E97007F3DCA /* Video.cpp in Sources */,
 				DDDE488229BA7485006190CF /* multiThreadedDriver.cpp in Sources */,
 				DDB5DBB429B4406A007F3DCA /* VideoDriver.cpp in Sources */,
+				DD1EF5C229EB4C9600989EA0 /* Video.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

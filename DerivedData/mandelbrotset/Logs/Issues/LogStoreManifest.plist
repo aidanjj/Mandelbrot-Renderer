@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>DAFA9D8D-B2F7-41FF-B10B-9A4E7567D1AE</key>
+		<key>F56D6604-27DE-4742-963C-A9C371831D9C</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogMajorGroupSection</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.tool</string>
 			<key>fileName</key>
-			<string>DAFA9D8D-B2F7-41FF-B10B-9A4E7567D1AE.xcactivitylog</string>
+			<string>F56D6604-27DE-4742-963C-A9C371831D9C.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -26,13 +26,13 @@
 			<key>signature</key>
 			<string>mandelbrotset-aoedwqczsydvghbnvelnfecvwwfy</string>
 			<key>timeStartedRecording</key>
-			<real>703285302.73395395</real>
+			<real>703286625.35720599</real>
 			<key>timeStoppedRecording</key>
-			<real>703285302.73402297</real>
+			<real>703286626.18548501</real>
 			<key>title</key>
 			<string>Build target mandelbrotset</string>
 			<key>uniqueIdentifier</key>
-			<string>DAFA9D8D-B2F7-41FF-B10B-9A4E7567D1AE</string>
+			<string>F56D6604-27DE-4742-963C-A9C371831D9C</string>
 		</dict>
 	</dict>
 	<key>preserveOldLogs</key>
